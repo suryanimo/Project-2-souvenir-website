@@ -1,12 +1,37 @@
 ﻿#header {
-	background-color:transparent;
-	color:#FF6600;
+	background-image:url('../bubble background.png');
+	color:maroon;
 	text-align:center;	
 	text-position: bottom;
-	padding:6px;
+	padding:20px;
 	position:relative;
-	font-family:"Kristen ITC"
+	font-family:"Javanese Text"
+		}
+		
+#menu ul {
+	list-style:none;
+	margin:0px;
+	padding:6px;
+	overflow:auto;
 	}
+
+#menu li {
+	font-family:"Kristen ITC";
+	float:left;
+	padding:15px 0 0 20px;
+	}
+
+#menu li a {
+	display:table-cell;
+	background-color:black;
+	color:#FF9933;
+	border-style:inset inset outset outset;
+	text-align:center;
+	padding:3px 16px;
+	text-decoration:none;
+	}
+
+
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
