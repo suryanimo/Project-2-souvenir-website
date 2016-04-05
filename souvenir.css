@@ -1,0 +1,78 @@
+﻿#background {
+	background-image:url('../image/love gift background final 500x250.jpg'),url('../other background style/small heart 800x250.png');
+	background-repeat:no-repeat, repeat;
+	background-position:right center,left;
+	background-color:FFFACD;
+	width: 250 px;
+	height: 750 px;
+	z-index:0;
+	}
+
+#header {
+	color:red;
+	text-align:center;	
+	text-position: bottom;
+	padding:70px;
+	position:relative;
+	font-family:"Lucida Handwriting";
+	font-weight : 800;
+	font-size:500px;
+	z-index:1;
+	}
+	
+.menu{
+	height:40px;
+	background:#FF6347;
+	}
+		
+#menu ul {
+	list-style:none;
+	margin:0px;
+	padding:6px;
+	overflow:auto;
+	}
+
+#menu li {
+	font-family:"Kristen ITC";
+	float:left;
+	padding:15px 0 0 20px;
+	}
+
+#menu li a {
+	display:table-cell;
+	background-color: 	FFB6C1;
+	color:red;
+	border-style:inset inset outset outset;
+	text-align:center;
+	padding:3px 16px;
+	text-decoration:none;
+	}
+	
+.main {
+    float: left;
+    background-color:transparent;
+    }
+
+.contact {
+  	float: left;
+  	background-color:transparent
+ 	 }
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+ footer {
+	background-color:light salmon;
+	color:black;
+	text-align:center;
+	position:inherit;
+	padding:1%;
+	clear:both;
+	}

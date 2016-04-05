@@ -1,12 +1,11 @@
-﻿#header {
-	background-image:url('../bubble background edit.png');
-	color:maroon;
-	text-align:center;	
-	text-position: bottom;
-	padding:20px;
-	position:relative;
-	font-family:"Javanese Text"
-		}
+﻿#yans{
+	margin-left: 2px;
+	margin-right: auto;
+	margin-top:10px;
+	margin-bottom:0;
+	height:150px;
+	weight:600px;
+	}
 		
 #menu ul {
 	list-style:none;
@@ -23,8 +22,8 @@
 
 #menu li a {
 	display:table-cell;
-	background-color:black;
-	color:#FF9933;
+	background-color: 	FFB6C1;
+	color:red;
 	border-style:inset inset outset outset;
 	text-align:center;
 	padding:3px 16px;
@@ -52,8 +51,8 @@ body {
 }
 
  footer {
-	background-color:#F5DA81;
-	color:#FF6600;
+	background-color:light salmon;
+	color:black;
 	text-align:center;
 	position:inherit;
 	padding:1%;
