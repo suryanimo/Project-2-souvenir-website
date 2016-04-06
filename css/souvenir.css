@@ -1,23 +1,36 @@
-﻿#yans{
-	margin-left: 2px;
-	margin-right: auto;
-	margin-top:10px;
+﻿#headeryans{
+	background-image:url('other background style/final background image f.jpg');
+	background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom:0;
+    width: 100%;
+    height: auto;
+        }
+        
+	
+#menu {
+	height:30px;
+	background:#F78181;
+	padding:0;
+	margin-top:2px;
 	margin-bottom:0;
-	height:150px;
-	weight:600px;
-	}
-		
+}
+
 #menu ul {
 	list-style:none;
 	margin:0px;
-	padding:6px;
+	padding:0;
 	overflow:auto;
 	}
 
 #menu li {
 	font-family:"Kristen ITC";
 	float:left;
-	padding:15px 0 0 20px;
+	padding:0 5 0 5px;
 	}
 
 #menu li a {
@@ -26,21 +39,21 @@
 	color:red;
 	border-style:inset inset outset outset;
 	text-align:center;
-	padding:3px 16px;
+	padding:5px 16px;
 	text-decoration:none;
 	}
 	
 .main {
     float: left;
-    background-color:transparent;
+    background-color:fuchsia;
     }
-
+        
 .contact {
   	float: left;
   	background-color:transparent
  	 }
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 .hero-spacer {
     margin-top: 50px;
@@ -49,12 +62,17 @@ body {
 .hero-feature {
     margin-bottom: 30px;
 }
-
- footer {
-	background-color:light salmon;
-	color:black;
+.footer {
+	background-color:#F78181;
+	color:#FF6600;
 	text-align:center;
 	position:inherit;
 	padding:1%;
 	clear:both;
 	}
+
+.footer a {
+	margin:0 2% 0 2%;
+	}
+
+
